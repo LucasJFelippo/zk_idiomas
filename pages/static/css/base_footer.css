@@ -1,0 +1,41 @@
+#footer{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(38, 43, 124);
+    display: flex;
+}
+#footer #footer_icon{
+    width: 20%;
+}
+#footer #footer_text{
+    flex: 0 0 55%;
+    width: 55%;
+    display: flex;
+}
+#footer_icon img{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer_text_contact{
+    width: 65%;
+}
+.footer_text_contact h2, .footer_text_contact h3{
+    margin: 0px;
+    position: relative;
+    top: 35%;
+    transform: translate(0, -50%);
+}
+.footer_text_contact h2{
+    color: rgb(234, 173, 155);
+}
+.footer_text_contact h3{
+    color: rgb(229, 196, 186);
+}
+.footer_text_contact h3 a{
+    text-decoration: none;
+    color: rgb(229, 196, 186);
+}

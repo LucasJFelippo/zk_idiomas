@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base_home.css') }}">
+{% endblock %}
+
+{% block title %}
+        ZK Idiomas
+{% endblock %}
+
+{% block header %}
+    {{ super() }}
+{% endblock %}
+
+{% block main %}
+    <div id="div_jumbotron" style="background-image: url({{ url_for('static', filename='image/zk_background.png') }})">
+        <div id="jumbotron_blur">
+            <div id="jumbotron_text">
+                <h1>Um novo idioma lhe espera! Qual será?</h1>
+                <h2>Inglês - Espanhol</h2>
+                <a href="./" id="jumbotron_a">Ver Cursos</a>
+            </div>
+        </div>
+    </div>
+    <div class="div_about about_left">
+        <div class="about_text">
+            <h1>ZK IDIOMAS</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?</p>
+        </div>
+        <div class="about_image">
+            <img src="{{ url_for('static', filename='image/zk_logo.jpg') }}" alt="Zk_logo">
+        </div>
+    </div>
+    <div class="div_about about_right">
+        <div class="about_image">
+            <img src="{{ url_for('static', filename='image/zk_logo.jpg') }}" alt="Zk_logo">
+        </div>
+        <div class="about_text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt voluptas ratione eum totam id nihil, tempore libero illo rem odit facilis culpa laudantium. Delectus repudiandae nisi repellendus quis iure?</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}
